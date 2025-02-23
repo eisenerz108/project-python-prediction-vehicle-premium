@@ -22,4 +22,5 @@ carAge = st.slider("Car Age (in years)", min_value=0, max_value=75, value=5, ste
 if st.button("🚀 Predict Premium", help="Click to estimate your insurance premium"):
     input_data = np.array([driverAge, driverExperience, previousAccidents, annualMileage, carAge]).reshape(1, -1)
     prediction = model.predict(input_data)
+    st.balloons()
     st.success(f"💰 Estimated Premium: {prediction[0]:,.2f}")
