@@ -48,3 +48,5 @@ This Streamlit application predicts car insurance premiums based on user inputs 
 ## 📜 License
 This project is open source and licensed under the MIT License.
 
+
+
